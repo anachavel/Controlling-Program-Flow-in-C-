@@ -29,5 +29,6 @@ namespace programFlow
         public static double NumberResponded { get; set; } = 325;
 
         public static double NumberRewardsMembers { get; set; } = 130;
+
     }
 }
