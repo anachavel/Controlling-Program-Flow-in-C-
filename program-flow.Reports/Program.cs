@@ -3,15 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace programFlow
+namespace WiredBrainCoffeeSurveys.Reports
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please specify a report to run (rewardas, comments, tasks): ");
-            var selectedReport = Console.ReadLine();
-
             GenerateWinnerEmails();
 
             GenerateTasksReport();
@@ -129,3 +126,4 @@ namespace programFlow
         }
     }
 }
+
